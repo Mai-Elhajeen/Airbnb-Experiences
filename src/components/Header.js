@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../img/airbnb-logo.svg'
 // Images
 import Img1 from '../img/image1.png'
-import Img2 from '../img/image.png'
+import Img2 from '../img/image2.png'
 import Img3 from '../img/image3.png'
 import Img4 from '../img/image4.png'
 import Img5 from '../img/image5.png'
