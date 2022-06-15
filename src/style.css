@@ -157,3 +157,14 @@ main {
 .salary span {
     font-weight: 100;
 }
+
+/* **************** start footer section **************** */
+footer {
+    height: 70px;
+    background: #FE395C;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
