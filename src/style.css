@@ -24,3 +24,23 @@ a {
 img {
     width: 100%;
 }
+
+/* **************** start header section **************** */
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav.navbar {
+    height: 70px;
+    width: 100%;
+    box-shadow: 0px 0px 16px 0px rgb(0 0 0 / 30%);
+    padding: 0px 32px;
+    display: flex;
+    align-items: center;
+}
+nav.navbar img{
+    width: 96px;
+}
