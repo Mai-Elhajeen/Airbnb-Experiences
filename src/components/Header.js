@@ -27,30 +27,30 @@ function Header() {
                     </div>
 
                     <div className='div-img up'>
-                        <img src={Img2} alt='' />
-                        <img src={Img3} alt='' />
+                        <img src={Img2} className='one' alt='' />
+                        <img src={Img3} className='two' alt='' />
                     </div>
 
                     <div className='div-img down'>
-                        <img src={Img4} alt='' />
-                        <img src={Img5} alt='' />
+                        <img src={Img4} className='two' alt='' />
+                        <img src={Img5} className='one' alt='' />
                     </div>
 
                     <div className='div-img up'>
-                        <img src={Img6} alt='' />
-                        <img src={Img7} alt='' />
+                        <img src={Img6} className='one' alt='' />
+                        <img src={Img7} className='two' alt='' />
                     </div>
 
                     <div className='div-img down'>
-                        <img src={Img8} alt='' />
-                        <img src={Img9} alt='' />
+                        <img src={Img8} className='two' alt='' />
+                        <img src={Img9} className='one' alt='' />
                     </div>
                 </div>
 
                 <div className='home-content'>
                     <h1>Online Experiences</h1>
                     <p>
-                        Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
+                        Join unique interactive activities led by <br />one-of-a-kind hosts—all without leaving <br />home.
                     </p>
                 </div>
             </div> 
