@@ -91,3 +91,69 @@ img.two {
     color: #222222;
     font-size: 16px;
 }
+
+/* **************** start main section **************** */
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 32px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-basis: 31.3333%;
+    margin: 24px 1%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.img-card {
+    position: relative;
+}
+
+.img-card button{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 72px;
+    height: 24px;
+    outline: none;
+    border: none;
+    color: #222222;
+    background: #fff;
+    font-size: 11px;
+    border-radius: 4px;
+}
+.card img {
+    height: 350px;
+    border-radius: 8px;
+}
+
+.rating i {
+    color: #FE395C
+}
+.rating span.num{
+    font-size: 18px;
+    color: #222222;
+    padding: 0px 4px;
+}
+.rating .rate {
+    color: #918E9B;
+    font-size: 18px;
+}
+
+.card-content p {
+    font-size: 18px;
+    color: #222222;
+    padding: 0px 4px;
+}
+
+.salary {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.salary span {
+    font-weight: 100;
+}
