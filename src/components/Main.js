@@ -26,48 +26,6 @@ function Main() {
                     </div>
                 </div>
             </div>
-
-            <div className='card'>
-                <div className='img-card'>
-                    <img src={ImgCard2} alt='' />
-                    <button>SOLD OUT</button>
-                </div>
-
-                <div className='card-content'>
-                    <div className='rating'>
-                        <i class="ri-star-fill"></i>
-                        <span className='num'>5.0</span>
-                        <span className='rate'>(6).USA</span>
-                    </div>
-                    <p>
-                        Life lessons with Katie Zaferes
-                    </p>
-                    <div className='salary'>
-                        From $136 / <span>person</span>
-                    </div>
-                </div>
-            </div>
-
-            <div className='card'>
-                <div className='img-card'>
-                    <img src={ImgCard3} alt='' />
-                    <button>SOLD OUT</button>
-                </div>
-
-                <div className='card-content'>
-                    <div className='rating'>
-                        <i class="ri-star-fill"></i>
-                        <span className='num'>5.0</span>
-                        <span className='rate'>(6).USA</span>
-                    </div>
-                    <p>
-                        Life lessons with Katie Zaferes
-                    </p>
-                    <div className='salary'>
-                        From $136 / <span>person</span>
-                    </div>
-                </div>
-            </div>
         </main>
     )
 }
