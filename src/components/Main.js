@@ -1,4 +1,5 @@
 import React from 'react'
+import Cards from './Cards'
 import ImgCard1 from '../img/card1.png'
 import ImgCard2 from '../img/card2.png'
 import ImgCard3 from '../img/card3.png'
@@ -6,68 +7,32 @@ import ImgCard3 from '../img/card3.png'
 function Main() {
     return (
         <main>
-            <div className='card'>
-                <div className='img-card'>
-                    <img src={ImgCard1} alt='' />
-                    <button>SOLD OUT</button>
-                </div>
+            <Cards 
+                img={ImgCard1}
+                rating={5.0}
+                review={6}
+                country='USA'
+                title='Life lessons with Katie Zaferes'
+                price={150}
+            />
 
-                <div className='card-content'>
-                    <div className='rating'>
-                        <i class="ri-star-fill"></i>
-                        <span className='num'>5.0</span>
-                        <span className='rate'>(6).USA</span>
-                    </div>
-                    <p>
-                        Life lessons with Katie Zaferes
-                    </p>
-                    <div className='salary'>
-                        From $136 / <span>person</span>
-                    </div>
-                </div>
-            </div>
+            <Cards 
+                img={ImgCard2}
+                rating={4.9}
+                review={8}
+                country='Canada'
+                title='Wedding lessons with Sara'
+                price={230}
+            />
 
-            <div className='card'>
-                <div className='img-card'>
-                    <img src={ImgCard2} alt='' />
-                    <button>SOLD OUT</button>
-                </div>
-
-                <div className='card-content'>
-                    <div className='rating'>
-                        <i class="ri-star-fill"></i>
-                        <span className='num'>5.0</span>
-                        <span className='rate'>(6).USA</span>
-                    </div>
-                    <p>
-                        Life lessons with Katie Zaferes
-                    </p>
-                    <div className='salary'>
-                        From $136 / <span>person</span>
-                    </div>
-                </div>
-            </div>
-
-            <div className='card'>
-                <div className='img-card'>
-                    <img src={ImgCard3} alt='' />
-                    <button>SOLD OUT</button>
-                </div>
-
-                <div className='card-content'>
-                    <div className='rating'>
-                        <i class="ri-star-fill"></i>
-                        <span className='num'>5.0</span>
-                        <span className='rate'>(6).USA</span>
-                    </div>
-                    <p>
-                        Life lessons with Katie Zaferes
-                    </p>
-                    <div className='salary'>
-                        From $136 / <span>person</span>
-                    </div>
-                </div>
-            </div>
+            <Cards 
+                img={ImgCard3}
+                rating={3.7}
+                review={5.7}
+                country='USA'
+                title='Sport lessons with Dived'
+                price={95}
+            />
         </main>
     )
 }
